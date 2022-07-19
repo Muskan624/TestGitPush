@@ -10,6 +10,13 @@ d={
     "surname":"Sinha"
 
 }
+d1={
+    "name":"Sudhanshu",
+    "email":"sudhanshu@ineuron.com",
+    "surname":"Kumar"
+
+}
 db1=client["test1"]
 coll=db1["test"]
 coll.insert_one(d)
+coll.insert_one(d1)
